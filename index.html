@@ -128,6 +128,11 @@
                     <i class="fas fa-video" aria-hidden="true"></i> Media
                 </a>
             </li>
+            <li role="none">
+                <a href="#contact" class="nav-link" data-section="contact" role="menuitem">
+                    <i class="fas fa-envelope" aria-hidden="true"></i> Contact
+                </a>
+            </li>
         </ul>
     </nav>
 
@@ -188,6 +193,29 @@
                         <i class="fas fa-video" aria-hidden="true"></i> View All Media
                     </button>
                 </section>
+                <hr>
+
+<!-- Banner Slider Section -->
+<section class="banner-slider-section mt-5 mb-5">
+  <div class="banner-slider-wrapper position-relative rounded-4 overflow-hidden">
+    <img src="i/banner1.jpg" alt="Banner 1" class="banner-slide-img rounded-4 w-100 d-block" style="height: auto; object-fit: contain; transition: opacity 0.5s;" loading="lazy">
+    <img src="i/banner2.jpg" alt="Banner 2" class="banner-slide-img rounded-4 w-100 d-block position-absolute top-0 start-0" style="height: auto; object-fit: contain; opacity: 0; transition: opacity 0.5s;" loading="lazy">
+    <img src="i/banner3.jpg" alt="Banner 3" class="banner-slide-img rounded-4 w-100 d-block position-absolute top-0 start-0" style="height: auto; object-fit: contain; opacity: 0; transition: opacity 0.5s;" loading="lazy">
+  </div>
+</section>
+<script>
+  // Banner slider logic
+  document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelectorAll('.banner-slide-img');
+    let current = 0;
+    setInterval(() => {
+      slides.forEach((img, idx) => {
+        img.style.opacity = (idx === current) ? '1' : '0';
+      });
+      current = (current + 1) % slides.length;
+    }, 2000);
+  });
+</script>
 <hr>
                 <!-- Book Section Preview -->
                 <section class="book-section mt-5" aria-labelledby="book-preview-heading">
@@ -218,6 +246,21 @@ walked away unpunished, unassailable and stronger than before.</p> <button class
                 </section>
 <hr>
                 
+                <!-- Anti-Corruption Quote Section -->
+<section class="anti-corruption-section my-5 bg-black rounded-4 px-4 py-5">
+  <div class="d-flex flex-wrap align-items-center justify-content-center anti-corruption-row">
+    <div class="anti-corruption-img-col">
+      <img src="i/corruption.jpg" alt="Corruption illustration" class="anti-corruption-img" loading="lazy">
+    </div>
+    <div class="anti-corruption-quote-col text-white p-4 ms-lg-4 mt-4 mt-lg-0" style="max-width: 600px; min-width: 260px; background: none;">
+      <blockquote class="mb-0" style="font-size: 1.35rem; font-weight: 500; line-height: 1.6;">
+        <em>Corruption robs nations,<br>silences justice and<br>cripples progress.</em><br>
+        <span style="color: #ffbe22;">Join the fight for accountability and integrity.</span><br>
+        Together, we can build a future free from corruption.”
+      </blockquote>
+    </div>
+  </div>
+</section>
                 <!-- Contact Section -->
                 <section class="contact-section mt-5" id="contact" aria-labelledby="contact-heading">
                     <h3 class="section-heading" id="contact-heading">Contact Information</h3>

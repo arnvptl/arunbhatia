@@ -678,3 +678,22 @@ html {
       display: block !important;
   }
 }
+
+/* Force larger anti-corruption image */
+.anti-corruption-img {
+  width: 380px !important;
+  max-width: 100vw !important;
+  height: auto !important;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  background: #fff;
+  margin: 0 2rem 0 0;
+  display: block;
+}
+@media (max-width: 900px) {
+  .anti-corruption-img {
+    width: 260px !important;
+    max-width: 95vw !important;
+    margin: 0 auto 1rem auto !important;
+  }
+}

@@ -614,8 +614,22 @@ document.addEventListener('DOMContentLoaded', function() {
     // Handle navigation clicks
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
-            e.preventDefault();
             const targetSection = this.getAttribute('data-section');
+            if (targetSection === 'contact') {
+                e.preventDefault();
+                // Scroll smoothly to the contact section
+                const contactSection = document.getElementById('contact');
+                if (contactSection) {
+                    contactSection.scrollIntoView({ behavior: 'smooth' });
+                }
+                // Optionally close sidebar on mobile
+                if (window.innerWidth < 992) {
+                    sidebar.classList.remove('show');
+                    mobileToggle.setAttribute('aria-expanded', 'false');
+                }
+                return;
+            }
+            e.preventDefault();
             switchToSection(targetSection);
         });
     });
