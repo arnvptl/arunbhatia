@@ -78,7 +78,7 @@ body {
 }
 
 .sidebar-header h4 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -88,14 +88,30 @@ body {
   list-style: none;
 }
 
+/* Sidebar Title Larger and Left-Aligned */
+.sidebar-title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+/* Sidebar Nav Buttons Larger */
 .sidebar-nav .nav-link {
-  display: block;
-  padding: 1rem 1.5rem;
-  color: rgba(255,255,255,0.8);
-  text-decoration: none;
-  transition: all 0.3s ease;
-  border-left: 3px solid transparent;
-  font-size: 1.2rem;
+    font-size: 1.35rem;
+    padding: 1.1rem 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    font-weight: 600;
+}
+.sidebar-nav .nav-link i {
+    font-size: 1.5rem;
 }
 
 .sidebar-nav .nav-link:hover,
@@ -159,11 +175,21 @@ body {
   margin-bottom: 3rem;
 }
 
+/* Hero Main Title for Typing Effect - Larger */
 .main-title {
-  font-size: 4rem;
-  font-weight: 700;
-  color: var(--text-dark);
-  margin-bottom: 0.5rem;
+    font-size: 4rem;
+    font-weight: 800;
+    min-height: 4.5rem;
+    letter-spacing: 1.5px;
+    color: #222;
+    margin-bottom: 0.5rem;
+}
+#typing-effect {
+    border-right: 2px solid #222;
+    padding-right: 4px;
+    white-space: nowrap;
+    display: inline-block;
+    min-width: 180px;
 }
 
 .subtitle {
