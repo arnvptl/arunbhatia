@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOY_DIR=/home/wwwarunbhatiaias
+    - rm -rf /home/wwwarunbhatiaias/public_html/*
+    - cp -R $DEPLOY_DIR/* /home/wwwarunbhatiaias/public_html/
