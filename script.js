@@ -6,21 +6,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 1,
                 title: "Puja Khedkar Case: Retired IAS Officer Bhatia Questions Modi Government's Inaction",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/heihZR83RWA",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/heihZR83RWA",
                 alt: "Arun Bhatia discussing Puja Khedkar case and government inaction"
             },
             {
                 id: 2,
                 title: "'IAS Is One Of The Most Corrupt Organizations In India' : Arun Bhatia, Former IAS Officer",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/dA6nFK2p41k",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/dA6nFK2p41k",
                 alt: "Arun Bhatia discussing corruption in IAS"
             },
             {
                 id: 3,
                 title: "Arun Bhatia On Pooja Khedkar | पूजा खेडकरांना अटक करा माजी सनदी अधिकारी अरुण भाटियांची मागणी",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/BtrZa7qV8TI",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/BtrZa7qV8TI",
                 alt: "Arun Bhatia demanding arrest of Pooja Khedkar"
             }
         ],
@@ -29,63 +29,63 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 4,
                 title: "IAS Pooja Khedkar वर अद्याप गुन्हा का नाही? माजी सनदी अधिकारी IAS Arun Bhatia यांची रोखठोक मुलाखत",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/hNo1C9Zgx9k",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/hNo1C9Zgx9k",
                 alt: "Arun Bhatia's hard-hitting interview on IAS Pooja Khedkar case"
             },
             {
                 id: 5,
                 title: "Arun Bhatia Exclusive | सेवेतील सनदी अधिकारी भ्रष्ट, माजी सनदी अधिकारी अरुण भाटिया NDTV मराठीवर",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/sX__lVQbQGY",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/sX__lVQbQGY",
                 alt: "Arun Bhatia exclusive interview on NDTV Marathi"
             },
             {
                 id: 6,
                 title: "Pudhari News | पुणे पोलिस आयुक्त अमितेश कुमारांची बदली करा - अरुण भाटिया",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/NAyLIsqC7cc",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/NAyLIsqC7cc",
                 alt: "Arun Bhatia demanding transfer of Pune Police Commissioner"
             },
             {
                 id: 7,
                 title: "Arun Bhatia Interview : देशात भ्रष्टाचार एक धंदा, Ex IAS अधिकारी अरुण भाटीया यांची स्फोटक मुलाखत",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/N2yBjcrcO70",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/N2yBjcrcO70",
                 alt: "Arun Bhatia's explosive interview on corruption as a business"
             },
             {
                 id: 8,
                 title: "The Newshour Debate: Honesty Punished - Part 1",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/mmh__OwDEDg",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/mmh__OwDEDg",
                 alt: "The Newshour Debate: Honesty Punished - Part 1"
             },
             {
                 id: 9,
                 title: "The Newshour Debate: Honesty Punished - Part 2",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/bCG-ehU6jt4",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/bCG-ehU6jt4",
                 alt: "The Newshour Debate: Honesty Punished - Part 2"
             },
             {
                 id: 10,
                 title: "The Newshour Debate: Honesty Punished - Part 3",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/3Mdvp88hzp8",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/3Mdvp88hzp8",
                 alt: "The Newshour Debate: Honesty Punished - Part 3"
             },
             {
                 id: 11,
                 title: "The Newshour Debate: Honesty Punished - Part 4",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/7ppGjJnwQgU",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/7ppGjJnwQgU",
                 alt: "The Newshour Debate: Honesty Punished - Part 4"
             },
             {
                 id: 12,
                 title: "The Newshour Debate: Honesty Punished - Full Debate",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/O2y_r8Cs6u4",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/O2y_r8Cs6u4",
                 alt: "The Newshour Debate: Honesty Punished - Full Debate"
             }
         ],
@@ -94,42 +94,42 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 13,
                 title: "The Newshour Debate: Who wanted big bunglows? - Part 1 (4th Feb 2014)",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/BnYbx2YkTrM",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/BnYbx2YkTrM",
                 alt: "The Newshour Debate: Who wanted big bunglows? - Part 1"
             },
             {
                 id: 14,
                 title: "The Newshour Debate: Who wanted big bunglows? - Part 2 (4th Feb 2014)",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/hUsAk6swjUc",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/hUsAk6swjUc",
                 alt: "The Newshour Debate: Who wanted big bunglows? - Part 2"
             },
             {
                 id: 15,
                 title: "The Newshour Debate: Who wanted big bunglows? - Full Debate (4th Feb 2014)",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/tSDJFI8kbtU",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/tSDJFI8kbtU",
                 alt: "The Newshour Debate: Who wanted big bunglows? - Full Debate"
             },
             {
                 id: 16,
                 title: "The Newshour Debate: Anna Hazare vs AAP - Full Debate (13th Dec 2013)",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/YGYJVaFbKO4",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/YGYJVaFbKO4",
                 alt: "The Newshour Debate: Anna Hazare vs AAP - Full Debate"
             },
             {
                 id: 17,
                 title: "The Newshour Debate: Vocal Minister loses voice - Part 1 (22nd Jan 2014)",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/bhhYCk-5YLw",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/bhhYCk-5YLw",
                 alt: "The Newshour Debate: Vocal Minister loses voice - Part 1"
             },
             {
                 id: 18,
                 title: "The Newshour Debate: Vocal Minister loses voice - Part 2 (22nd Jan 2014)",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/jzvE-f8p4Uc",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/jzvE-f8p4Uc",
                 alt: "The Newshour Debate: Vocal Minister loses voice - Part 2"
             }
         ],
@@ -138,42 +138,42 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 19,
                 title: "The Newshour Debate: Vocal Minister loses voice - Part 3 (22nd Jan 2014)",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/_fDm0ETkbNU",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/_fDm0ETkbNU",
                 alt: "The Newshour Debate: Vocal Minister loses voice - Part 3"
             },
             {
                 id: 20,
                 title: "The Newshour Debate: Vocal Minister loses voice - Part 4 (22nd Jan 2014)",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/mmL25rFmzc0",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/mmL25rFmzc0",
                 alt: "The Newshour Debate: Vocal Minister loses voice - Part 4"
             },
             {
                 id: 21,
                 title: "The Newshour Debate: Vocal Minister loses voice - Full Debate (22nd Jan 2014)",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/HseKCWGvrVI",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/HseKCWGvrVI",
                 alt: "The Newshour Debate: Vocal Minister loses voice - Full Debate"
             },
             {
                 id: 22,
                 title: "Arun Bhatia on Anna Hazare's Campaign Against Corruption",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/sh8OJo_OmFQ",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/sh8OJo_OmFQ",
                 alt: "Arun Bhatia on Anna Hazare's Campaign Against Corruption"
             },
             {
                 id: 23,
                 title: "Arun Bhatia Final",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/tdISQDd3fCg",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/tdISQDd3fCg",
                 alt: "Arun Bhatia Final"
             },
             {
                 id: 24,
                 title: "Arun Bhatia, Independent || Pune, Maharashtra",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/uPH7PDvczQc",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/uPH7PDvczQc",
                 alt: "Arun Bhatia, Independent || Pune, Maharashtra"
             }
         ],
@@ -182,42 +182,42 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 25,
                 title: "Pune Arun Bhatia To Fight Election",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/RSAat1SjRg4",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/RSAat1SjRg4",
                 alt: "Pune Arun Bhatia To Fight Election"
             },
             {
                 id: 26,
                 title: "Pune : Arun Bhatia to contest Lok Sabha elections",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/gMEJscBWm0Y",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/gMEJscBWm0Y",
                 alt: "Pune : Arun Bhatia to contest Lok Sabha elections"
             },
             {
                 id: 27,
                 title: "Debate: Anna hardens stand, will Govt relent? - 4",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/O6IopL2sv9U",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/O6IopL2sv9U",
                 alt: "Debate: Anna hardens stand, will Govt relent? - 4"
             },
             {
                 id: 28,
                 title: "AAP Voices of Dissent Ex IAS officer Arun Bhatia",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/bSr58uGqP04",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/bSr58uGqP04",
                 alt: "AAP Voices of Dissent Ex IAS officer Arun Bhatia"
             },
             {
                 id: 29,
                 title: "Arun Bhatia promises to eradicate corruption from Pune city in 60 days!",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/OMMZX91dqEA",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/OMMZX91dqEA",
                 alt: "Arun Bhatia promises to eradicate corruption from Pune city in 60 days!"
             },
             {
                 id: 30,
                 title: "Arun Bhatia's achievements for pune during his stint in various positions in Pune.",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/p_iv5q-vzJs",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/p_iv5q-vzJs",
                 alt: "Arun Bhatia's achievements for pune during his stint in various positions in Pune."
             }
         ],
@@ -226,21 +226,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 31,
                 title: "Google Hangout with Arun Bhatia",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/2kRmkBz5GlA",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/2kRmkBz5GlA",
                 alt: "Google Hangout with Arun Bhatia"
             },
             {
                 id: 32,
                 title: "The Newshour Debate: 22 departments, Zero answers - Part 2 (7th Feb 2014)",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/IQJIoeRevAU",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/IQJIoeRevAU",
                 alt: "The Newshour Debate: 22 departments, Zero answers - Part 2"
             },
             {
                 id: 33,
                 title: "Arun Bhatia Answers the ACB Cases",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/EQ74jfzGSnI",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/EQ74jfzGSnI",
                 alt: "Arun Bhatia Answers the ACB Cases"
             },
             {
