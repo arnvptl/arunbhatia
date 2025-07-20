@@ -247,21 +247,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 34,
                 title: "Arun Bhatia Answers - What can One Arun Bhatia do for Pune?!",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/xKanXqRbKNw",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/xKanXqRbKNw",
                 alt: "Arun Bhatia Answers - What can One Arun Bhatia do for Pune?!"
             },
             {
                 id: 35,
                 title: "Arun Bhatia Speaks - Transparency to the Hilt",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/xPJDO55hcKY",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/xPJDO55hcKY",
                 alt: "Arun Bhatia Speaks - Transparency to the Hilt"
             },
             {
                 id: 36,
                 title: "The Newshour Debate: Controversy over AAP funding - Part 1",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/28YiMCsfeMo",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/28YiMCsfeMo",
                 alt: "The Newshour Debate: Controversy over AAP funding - Part 1"
             }
         ],
@@ -270,28 +270,28 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 37,
                 title: "Former IAS officer Arun Bhatia elaborates How to Prosecute Bureaucrats despite Section 197",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/PsS1RZAoQ7Y",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/PsS1RZAoQ7Y",
                 alt: "Former IAS officer Arun Bhatia elaborates How to Prosecute Bureaucrats despite Section 197"
             },
             {
                 id: 38,
                 title: "Arun Bhatia on How to Prevent Abuse of Power by Bureaucrats part 1 of 2",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/9fvRZZN8vGo",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/9fvRZZN8vGo",
                 alt: "Arun Bhatia on How to Prevent Abuse of Power by Bureaucrats part 1 of 2"
             },
             {
                 id: 39,
                 title: "Arun Bhatia speaks on Democracy",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/mQvG-4b2nhk",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/mQvG-4b2nhk",
                 alt: "Arun Bhatia speaks on Democracy"
             },
             {
                 id: 40,
                 title: "Why vote for Arun Bhatia",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/EhHVN8Z1hv8",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/EhHVN8Z1hv8",
                 alt: "Why vote for Arun Bhatia"
             }
         ]
