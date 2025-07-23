@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 1,
                 title: "Puja Khedkar Case: Retired IAS Officer Bhatia Questions Modi Government's Inaction",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube-nocookie.com/embed/heihZR83RWA",
+                youtubeUrl: "https://www.youtube.com/embed/dA6nFK2p41k?start=195",
                 alt: "Arun Bhatia discussing Puja Khedkar case and government inaction"
             },
             {
@@ -504,6 +504,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const knowMoreBtn = document.getElementById('knowMoreBtn');
     const languageScrollBtns = document.querySelectorAll('.language-scroll-btn');
     const currentPageBreadcrumb = document.getElementById('current-page');
+    const sidebarOverlay = document.querySelector('.sidebar-overlay');
 
     // Update breadcrumb
     function updateBreadcrumb(sectionName) {
@@ -713,12 +714,19 @@ document.addEventListener('DOMContentLoaded', function() {
     // Close sidebar when clicking outside on mobile
     document.addEventListener('click', function(e) {
         if (window.innerWidth < 992) {
-            if (!sidebar.contains(e.target) && !mobileToggle.contains(e.target)) {
+            if (!sidebar.contains(e.target) && !mobileToggle.contains(e.target) && (!sidebarOverlay || !sidebarOverlay.contains(e.target))) {
                 sidebar.classList.remove('show');
                 mobileToggle.setAttribute('aria-expanded', 'false');
             }
         }
     });
+    // Close sidebar when clicking the overlay
+    if (sidebarOverlay) {
+        sidebarOverlay.addEventListener('click', function() {
+            sidebar.classList.remove('show');
+            mobileToggle.setAttribute('aria-expanded', 'false');
+        });
+    }
 
     // Handle window resize
     window.addEventListener('resize', function() {
@@ -739,42 +747,6 @@ document.addEventListener('DOMContentLoaded', function() {
             this.style.transform = 'translateY(0) scale(1)';
         });
     }
-
-    // Typing effect for main title
-    const typingPhrases = ["Ex-IAS Officer", "Fighter(In service)", "Writer", "MP Election 2004-06 - 60K votes"];
-    const typingElement = document.getElementById('typing-effect');
-    let typingIndex = 0;
-    let charIndex = 0;
-    let isDeleting = false;
-    let typingDelay = 90;
-    let erasingDelay = 50;
-    let newPhraseDelay = 1200;
-
-    function type() {
-        const currentPhrase = typingPhrases[typingIndex];
-        if (!isDeleting) {
-            typingElement.textContent = currentPhrase.substring(0, charIndex + 1);
-            charIndex++;
-            if (charIndex === currentPhrase.length) {
-                isDeleting = true;
-                setTimeout(type, newPhraseDelay);
-            } else {
-                setTimeout(type, typingDelay);
-            }
-        } else {
-            typingElement.textContent = currentPhrase.substring(0, charIndex);
-            charIndex--;
-            if (charIndex < 0) {
-                isDeleting = false;
-                typingIndex = (typingIndex + 1) % typingPhrases.length;
-                charIndex = 0;
-                setTimeout(type, typingDelay);
-            } else {
-                setTimeout(type, erasingDelay);
-            }
-        }
-    }
-    if (typingElement) type();
 
     // Add parallax effect to hero section
     let ticking = false;
@@ -909,12 +881,11 @@ document.addEventListener('DOMContentLoaded', function() {
     handleHashOnLoad();
 
     // Initialize page
-    console.log(`
-  ┓     ┏┓┳┓┳┓┏┓┓┏
-━━┣┓┓┏  ┣┫┣┫┃┃┣┫┃┃
-  ┗┛┗┫  ┛┗┛┗┛┗┛┗┗┛
-     ┛
-https://rnv.is-a.dev`);
+    console.log(` _____                 
+|  _  |___ ___ ___ _ _ 
+|     |  _|   | .'| | |
+|__|__|_| |_|_|__,|\_/                                                           
+ https://rnv.is-a.dev`);
     
     // Track page performance
     if ('performance' in window) {
