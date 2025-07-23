@@ -106,6 +106,7 @@
     <nav class="sidebar" id="sidebar" role="navigation" aria-label="Main navigation">
         <div class="sidebar-header">
             <h4 class="sidebar-title">Arun<br>Bhatia</h4>
+            <div class="display-6 fw-bold mt-2 mb-4">IAS (retd)</div>
         </div>
         <ul class="sidebar-nav" role="menubar">
             <li role="none">
@@ -114,8 +115,23 @@
                 </a>
             </li>
             <li role="none">
-                <a href="#about" class="nav-link" data-section="about" role="menuitem">
-                    <i class="fas fa-user" aria-hidden="true"></i> Know Me
+                <a href="#election" class="nav-link" data-section="election" role="menuitem">
+                    <i class="fas fa-vote-yea" aria-hidden="true"></i> Election
+                </a>
+            </li>
+            <li role="none">
+                <a href="#court-victories" class="nav-link" data-section="court-victories" role="menuitem">
+                    <i class="fas fa-gavel" aria-hidden="true"></i> Court Victories
+                </a>
+            </li>
+            <li role="none">
+                <a href="#harrasment" class="nav-link" data-section="harrasment" role="menuitem">
+                    <i class="fas fa-exclamation-triangle" aria-hidden="true"></i> Harrasment
+                </a>
+            </li>
+            <li role="none">
+                <a href="#family" class="nav-link" data-section="family" role="menuitem">
+                    <i class="fas fa-users" aria-hidden="true"></i> Family
                 </a>
             </li>
             <li role="none">
@@ -135,6 +151,7 @@
             </li>
         </ul>
     </nav>
+    <div class="sidebar-overlay"></div>
 
     <!-- Mobile Toggle Button -->
     <button class="mobile-toggle d-lg-none" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
@@ -143,17 +160,29 @@
 
     <!-- Main Content -->
     <main class="main-content" id="main-content">
-
-
+        
         <!-- Home Section -->
-        <section id="home" class="content-section active" aria-labelledby="home-heading">
+        <section id="home" class="content-section home-section active" aria-labelledby="home-heading">
+                            <!-- Anti-Corruption Quote Section -->
+                            <section class="anti-corruption-section my-5 bg-black rounded-4 px-4 py-5">
+                                <div class="d-flex flex-wrap align-items-center justify-content-center anti-corruption-row">
+                                    <div class="anti-corruption-img-col">
+                                        <img src="i/corruption.jpg" alt="Corruption illustration" class="anti-corruption-img" loading="lazy">
+                                    </div>
+                                    <div class="anti-corruption-quote-col text-white p-4 ms-lg-4 mt-4 mt-lg-0" style="max-width: 600px; min-width: 260px; background: none;">
+                                        <blockquote class="mb-0" style="font-size: 1.35rem; font-weight: 500; line-height: 1.6;">
+                                            <em>Corruption robs nations,<br>silences justice and<br>cripples progress.</em><br>
+                                            <span style="color: #ffbe22;">Join the fight for accountability and integrity.</span><br>
+                                            Together, we can build a future free from corruption.
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </section>
+                            <hr>
             <div class="container-fluid">
                 <!-- Hero Section -->
-                <header class="hero-section">
-                    <h1 class="main-title" id="home-heading"><span id="typing-effect"></span></h1>
-                    <!-- <h2 class="subtitle">Fight Against Corruption</h2> -->
+                <header class="hero-section text-center">
                 </header>
-
                 <div class="row mt-5">
                     <div class="col-lg-5">
                         <div class="profile-image-container">
@@ -171,20 +200,14 @@
                             <div class="text-content">
                                 <p><strong>Ex-IAS officer,</strong> dedicated to fighting corruption in Indian bureaucracy.</p>
                                 <p>This bio-data is a three decade long story of attempting to enforce honesty in a corrupt third world bureaucracy. Almost from the moment of joining service (IAS) it became clear that the real enemy was the corrupt political establishment in India.</p>
-                                
                                 <p>Throughout my career in the Indian Administrative Service, I witnessed and fought against systematic corruption that plagued the administrative machinery. My journey represents the challenges faced by honest officers in maintaining integrity while serving the public interest.</p>
-                                
-                                <button class="btn btn-outline-primary mt-3 know-more-btn" id="knowMoreBtn" aria-label="Learn more about Arun Bhatia">
-                                    <i class="fas fa-user" aria-hidden="true"></i> Know More About Me
-                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <hr>
-
                 <!-- Media Section Preview -->
-                <section class="media-section mt-5" aria-labelledby="media-preview-heading">
+                <section class="media-section mt-5 media-section" aria-labelledby="media-preview-heading">
                     <h3 class="section-heading" id="media-preview-heading">Featured Media</h3>
                     <div class="row mt-4">
                         <!-- Featured media cards will be dynamically generated here -->
@@ -194,31 +217,8 @@
                     </button>
                 </section>
                 <hr>
-
-<!-- Banner Slider Section -->
-<section class="banner-slider-section mt-5 mb-5">
-  <div class="banner-slider-wrapper position-relative rounded-4 overflow-hidden">
-    <img src="i/banner1.jpg" alt="Banner 1" class="banner-slide-img rounded-4 w-100 d-block" style="height: auto; object-fit: contain; transition: opacity 0.5s;" loading="lazy">
-    <img src="i/banner2.jpg" alt="Banner 2" class="banner-slide-img rounded-4 w-100 d-block position-absolute top-0 start-0" style="height: auto; object-fit: contain; opacity: 0; transition: opacity 0.5s;" loading="lazy">
-    <img src="i/banner3.jpg" alt="Banner 3" class="banner-slide-img rounded-4 w-100 d-block position-absolute top-0 start-0" style="height: auto; object-fit: contain; opacity: 0; transition: opacity 0.5s;" loading="lazy">
-  </div>
-</section>
-<script>
-  // Banner slider logic
-  document.addEventListener('DOMContentLoaded', function() {
-    const slides = document.querySelectorAll('.banner-slide-img');
-    let current = 0;
-    setInterval(() => {
-      slides.forEach((img, idx) => {
-        img.style.opacity = (idx === current) ? '1' : '0';
-      });
-      current = (current + 1) % slides.length;
-    }, 2000);
-  });
-</script>
-<hr>
                 <!-- Book Section Preview -->
-                <section class="book-section mt-5" aria-labelledby="book-preview-heading">
+                <section class="book-section mt-5 book-section" aria-labelledby="book-preview-heading">
                     <h3 class="section-heading" id="book-preview-heading">Book on Corruption</h3>
                     <div class="book-content mt-4">
                         <div class="row">
@@ -235,8 +235,7 @@
                             <div class="col-lg-6">
                                 <div class="book-description">
                                     <h4 class="book-title">Fight Against Corruption: An IAS Officer's Journey</h4>
-                                    <p>Whenever Bhatia detected corruption and initiated action against the culprits protected by the establishment, he was transferred. In subsequent postings when he raised the old issues and asked for action against offenders, he was told that this was no longer his concern. Bhatia’s protests and findings remained suppressed and law breakers
-walked away unpunished, unassailable and stronger than before.</p> <button class="btn btn-primary mt-3 learn-more-btn" data-target="blog" aria-label="Learn more about the book">
+                                    <p>Whenever Bhatia detected corruption and initiated action against the culprits protected by the establishment, he was transferred. In subsequent postings when he raised the old issues and asked for action against offenders, he was told that this was no longer his concern. Bhatia’s protests and findings remained suppressed and law breakers walked away unpunished, unassailable and stronger than before.</p> <button class="btn btn-primary mt-3 learn-more-btn" data-target="blog" aria-label="Learn more about the book">
                                         <i class="fas fa-book" aria-hidden="true"></i> Learn More About Book
                                     </button>
                                 </div>
@@ -244,30 +243,18 @@ walked away unpunished, unassailable and stronger than before.</p> <button class
                         </div>
                     </div>
                 </section>
-<hr>
-                
-                <!-- Anti-Corruption Quote Section -->
-<section class="anti-corruption-section my-5 bg-black rounded-4 px-4 py-5">
-  <div class="d-flex flex-wrap align-items-center justify-content-center anti-corruption-row">
-    <div class="anti-corruption-img-col">
-      <img src="i/corruption.jpg" alt="Corruption illustration" class="anti-corruption-img" loading="lazy">
-    </div>
-    <div class="anti-corruption-quote-col text-white p-4 ms-lg-4 mt-4 mt-lg-0" style="max-width: 600px; min-width: 260px; background: none;">
-      <blockquote class="mb-0" style="font-size: 1.35rem; font-weight: 500; line-height: 1.6;">
-        <em>Corruption robs nations,<br>silences justice and<br>cripples progress.</em><br>
-        <span style="color: #ffbe22;">Join the fight for accountability and integrity.</span><br>
-        Together, we can build a future free from corruption.”
-      </blockquote>
-    </div>
-  </div>
-</section>
                 <hr>
                 <!-- Contact Section -->
-                <section class="contact-section mt-5" id="contact" aria-labelledby="contact-heading">
+                <section class="contact-section mt-5 contact-section" id="contact" aria-labelledby="contact-heading">
                     <h3 class="section-heading" id="contact-heading">Contact Information</h3>
                     <address>
-                        <p>Email: <a href="mailto:arunbhatia@gmail.com">arunbhatia@gmail.com</a></p>
+                        <p>Email: <a href="mailto:bpdbhatia@hotmail.com">bpdbhatia@hotmail.com</a></p>
                         <p>Phone: +91 797218XXXX</p>
+                        <p>
+                            <a href="https://www.facebook.com/Arun2014" target="_blank" rel="noopener" class="btn btn-outline-primary" aria-label="Visit Arun Bhatia's Facebook page">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i> Facebook
+                            </a>
+                        </p>
                     </address>
                 </section>
             </div>
