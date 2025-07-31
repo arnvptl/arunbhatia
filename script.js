@@ -543,9 +543,9 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Update page title for SEO
             const sectionTitles = {
-                'home': 'Arun Bhatia - Ex-IAS Officer | Fight Against Corruption',
-                'about': 'Know Me - Arun Bhatia | Former IAS Officer Biography',
-                'blog': 'Book - Fight Against Corruption | Arun Bhatia',
+                'home': 'Arun Bhatia - Ex-IAS Officer',
+                'about': 'Know Me - Arun Bhatia',
+                'blog': 'Book - Fight Against Corruption',
                 'media': 'Media Coverage | Arun Bhatia Interviews and Videos'
             };
             document.title = sectionTitles[targetSection] || document.title;
