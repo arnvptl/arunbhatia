@@ -22,6 +22,47 @@ document.addEventListener('DOMContentLoaded', function() {
                 thumbnail: "i/arun2.jpg",
                 youtubeUrl: "https://www.youtube-nocookie.com/embed/BtrZa7qV8TI",
                 alt: "Arun Bhatia demanding arrest of Pooja Khedkar"
+            },
+{
+                id: 1,
+                title: "Puja Khedkar Case: Retired IAS Officer Bhatia Questions Modi Government's Inaction",
+                thumbnail: "i/arun-detective.jpg",
+                youtubeUrl: "https://www.youtube.com/embed/dA6nFK2p41k?start=195",
+                alt: "Arun Bhatia discussing Puja Khedkar case and government inaction"
+            },
+            {
+                id: 2,
+                title: "'IAS Is One Of The Most Corrupt Organizations In India' : Arun Bhatia, Former IAS Officer",
+                thumbnail: "i/arun-angry.webp",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/dA6nFK2p41k",
+                alt: "Arun Bhatia discussing corruption in IAS"
+            },
+            {
+                id: 3,
+                title: "Arun Bhatia On Pooja Khedkar | पूजा खेडकरांना अटक करा माजी सनदी अधिकारी अरुण भाटियांची मागणी",
+                thumbnail: "i/arun2.jpg",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/BtrZa7qV8TI",
+                alt: "Arun Bhatia demanding arrest of Pooja Khedkar"
+            },{
+                id: 1,
+                title: "Puja Khedkar Case: Retired IAS Officer Bhatia Questions Modi Government's Inaction",
+                thumbnail: "i/arun-detective.jpg",
+                youtubeUrl: "https://www.youtube.com/embed/dA6nFK2p41k?start=195",
+                alt: "Arun Bhatia discussing Puja Khedkar case and government inaction"
+            },
+            {
+                id: 2,
+                title: "'IAS Is One Of The Most Corrupt Organizations In India' : Arun Bhatia, Former IAS Officer",
+                thumbnail: "i/arun-angry.webp",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/dA6nFK2p41k",
+                alt: "Arun Bhatia discussing corruption in IAS"
+            },
+            {
+                id: 3,
+                title: "Arun Bhatia On Pooja Khedkar | पूजा खेडकरांना अटक करा माजी सनदी अधिकारी अरुण भाटियांची मागणी",
+                thumbnail: "i/arun2.jpg",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/BtrZa7qV8TI",
+                alt: "Arun Bhatia demanding arrest of Pooja Khedkar"
             }
         ],
         english: [
