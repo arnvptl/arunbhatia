@@ -1,8 +1,8 @@
 ---
 deployment:
   tasks:
-    - export REPO_DIR=/home/wwwarunbhatiaias/repositories/arunbhatia
-    - export DEPLOY_DIR=/home/wwwarunbhatiaias/public_html
+    - export REPO_DIR=/home/arunbhatiaias/repositories/arunbhatia
+    - export DEPLOY_DIR=/home/arunbhatiaias/public_html
     - rm -rf $DEPLOY_DIR/*
     - cp -R $REPO_DIR/* $DEPLOY_DIR/
     - rm -f $DEPLOY_DIR/.cpanel.yml
