@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 1,
                 title: "Puja Khedkar Case: Retired IAS Officer Bhatia Questions Modi Government's Inaction",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/dA6nFK2p41k?start=195",
+                youtubeUrl: "https://www.youtube.com/embed/mmL25rFmzc0",
                 alt: "Arun Bhatia discussing Puja Khedkar case and government inaction"
             },
             {
