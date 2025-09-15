@@ -102,6 +102,19 @@
     <!-- Skip to main content for accessibility -->
     <a href="#main-content" class="skip-link sr-only sr-only-focusable">Skip to main content</a>
     
+    <!-- Mobile Navigation Bar -->
+    <nav class="mobile-nav d-lg-none" role="navigation" aria-label="Mobile navigation">
+        <div class="mobile-nav-container">
+            <div class="mobile-nav-brand">
+                <h4 class="mobile-nav-title">Arun Bhatia</h4>
+                <div class="mobile-nav-subtitle">IAS (retd)</div>
+            </div>
+            <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+        </div>
+    </nav>
+    
     <!-- Sidebar Navigation -->
     <nav class="sidebar" id="sidebar" role="navigation" aria-label="Main navigation">
         <div class="sidebar-header">
@@ -114,9 +127,9 @@
                     <i class="fas fa-home" aria-hidden="true"></i> Home
                 </a>
             </li>
-                        <li role="none">
-                <a href="#about" class="nav-link active" data-section="about" role="menuitem" aria-current="page">
-                   👤 About Me
+            <li role="none">
+                <a href="#about" class="nav-link" data-section="about" role="menuitem" aria-current="page">
+                    <i class="fas fa-user-tie" aria-hidden="true"></i> About Me
                 </a>
             </li>
             
@@ -131,10 +144,10 @@
                 </a>
             </li>
             <li role="none">
-                <a href="#media" class="nav-link" data-section="media" role="menuitem">
+                <a href="#media1" class="nav-link" data-section="media1" role="menuitem">
                     <i class="fas fa-video" aria-hidden="true"></i> Media
                 </a>
-            </li>
+            </li>  
             <li role="none">
                 <a href="#contact" class="nav-link" data-section="contact" role="menuitem">
                     <i class="fas fa-envelope" aria-hidden="true"></i> Contact
@@ -169,37 +182,36 @@
         
         <!-- Home Section -->
         <section id="home" class="content-section home-section active" aria-labelledby="home-heading">
-                            <!-- Banner Image -->
-                            <img src="i/corruption.jpg" alt="Corruption banner" class="home-banner-img" loading="eager">
-                            <hr>
+            
             <div class="container-fluid">
                 <!-- Hero Section -->
                 <header class="hero-section text-center">
                     <h1 id="home-heading" class="visually-hidden">Home</h1>
                 </header>
-            <div class="row align-items-start mt-5 g-4">
-                    <div class="col-lg-5">
-                        <div class="profile-image-container">
-                            <img src="i/arun_sitting.jpg" 
-                                 alt="Arun Bhatia, former IAS officer, sitting in his office chair" 
-                                 class="profile-image"
-                                 loading="lazy"
-                                 width="300"
-                                 height="700">
+                
+                <!-- Banner Image -->
+                <img src="i/corruption.jpg" alt="Corruption banner" class="home-banner-img" loading="eager">
+                
+                <hr>
+                <!-- About Arun Bhatia Section with Proper Text Wrapping -->
+                <div class="about-preview-section mt-5">
+                    <h3 class="section-heading">About Arun Bhatia</h3>
+                    <div class="about-content-wrapper">
+                        <img src="i/arun_sitting.jpg" 
+                        alt="Arun Bhatia, former IAS officer, sitting in his office chair" 
+                        class="profile-image-float"
+                        loading="lazy"
+                        width="300"
+                        height="700">
+                        <div class="text-content">
+                            <p>Working in the government educated me – revealed an India behind the curtain – its grime, corruption and poverty. The entire three decades were a struggle to do what one was being paid for – an unequal battle against selfish and pompous bureaucrats and politicians installed by us.</p>
+                            <p>Seven years in the United Nations, evaluating and managing development projects in various countries, were a respite for a spirit continuously at war. If this period is excluded I was gifted with 24 transfers in about as many years in service in India.</p>
+                            <p>But there was a good side too. The rocky journey gave us wonderful friendships that never faltered and are with us today. These would never have come our way if the conflict had been abandoned.</p>
+                            <p>The appeal for a better India will be executed by those amongst the young, sensitive to poverty, who will spend some minutes in their day in thinking and asking for reform.</p>
+                            <p>When this happens we will become the greatest of all nations. The world respects guns because there is no choice. But the same world says empty bellies with big guns don't define a modern state.</p>
                         </div>
+                        <div class="clearfix"></div>
                     </div>
-                    <div class="col-lg-7">
-                        <div class="content-text">
-                            <h3 class="section-heading">About Arun Bhatia</h3>
-                            <div class="text-content">
-                                <p class="text-content">Working in the government educated me – revealed an India behind the curtain – its grime, corruption and poverty. The entire three decades were a struggle to do what one was being paid for – an unequal battle against selfish and pompous bureaucrats and politicians installed  by us.</p>
-                                <p class="text-content">Seven years in the United Nations, evaluating and managing development projects in various countries, were a respite for a spirit continuously at war. If this period is excluded I was gifted with 24 transfers in about as many years in service in India.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="text-content">But there was a good side too. The rocky journey gave us wonderful friendships that never faltered and are with us today. These would never have come our way if the conflict had been abandoned.</p>
-                    <p class="text-content">The appeal for a better India will be executed by those amongst the young, sensitive to poverty, who will spend some minutes in their day in thinking and asking for reform.</p>
-                    <p class="text-content">When this happens we will become the greatest of all nations. The world respects guns because there is no choice. But the same world says empty bellies with big guns don’t define a modern state.</p>
                 </div>
                 <hr>
                 <!-- Media Section Preview -->
@@ -208,7 +220,7 @@
                     <div class="row mt-4">
                         <!-- Featured media cards will be dynamically generated here -->
                     </div>
-                    <button class="btn btn-primary mt-3 learn-more-btn" data-target="media" aria-label="View all media content">
+                    <button class="btn btn-primary mt-3 learn-more-btn" data-target="media1" aria-label="View all media content">
                         <i class="fas fa-video" aria-hidden="true"></i> View All
                     </button>
                 </section>
@@ -217,26 +229,21 @@
                 <section class="book-section mt-5" aria-labelledby="book-preview-heading">
                     <h3 class="section-heading" id="book-preview-heading">Book on Corruption</h3>
                     <div class="book-content mt-4">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="book-cover-container">
-                                    <img src="i/book.jpg" 
-                                         alt="Book cover: Fight Against Corruption - An IAS Officer's Journey by Arun Bhatia" 
-                                         class="book-cover-image"
-                                         loading="lazy"
-                                         width="300"
-                                         height="400">
-                                </div>
+                        <div class="book-content-wrapper">
+                            <img src="i/book.jpg" 
+                                 alt="Book cover: Fight Against Corruption - An IAS Officer's Journey by Arun Bhatia" 
+                                 class="book-cover-float"
+                                 loading="lazy"
+                                 width="300"
+                                 height="400">
+                            <div class="book-text-content">
+                                <h4 class="book-title">Fight Against Corruption: An IAS Officer's Journey</h4>
+                                <p>Soon being completed is a book on poverty, corruption and the crumbling structure of governance. And the reforms necessary to give us a better life. It is an angry pen that strides across the pages sketching the disappearance of checks on rulers, the inaccessible courts, the dirty elections that keep good Indians away from politics, the unacknowledged but massive corruption (80 %) in the IAS (Indian Administrative Service), the cheating done by the system – in denying malnutrition child deaths, in redefining poverty to camouflage the real figures, in mocking the Right to Information Act, in refusing to introduce physical audit, in keeping institutions (Lok Pal, Commissions for Human Rights etc,) unarmed to check government malfunction etc. (The fate of more than 1000 applications under the Right to Information Act has been analysed.)</p>
+                                <button class="btn btn-primary mt-3 learn-more-btn" data-target="blog" aria-label="Learn more about the book">
+                                    <i class="fas fa-book" aria-hidden="true"></i> Learn More About Book
+                                </button>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="book-description">
-                                    <h4 class="book-title">Fight Against Corruption: An IAS Officer's Journey</h4>
-<p>Soon being completed is a book on poverty, corruption and the crumbling structure of governance. And the reforms necessary to give us a better life. It is an angry pen that strides across the pages sketching the disappearance of checks on rulers, the inaccessible courts, the dirty elections that keep good Indians away from politics, the unacknowledged but massive corruption (80 %) in the IAS (Indian Administrative Service), the cheating done by the system – in denying malnutrition child deaths, in redefining poverty to camouflage the real figures, in mocking the Right to Information Act, in refusing to introduce physical audit, in keeping institutions (Lok Pal, Commissions for Human Rights etc,) unarmed to check government malfunction etc. (The fate of more than 1000 applications under the Right to Information Act has been analysed.)</p>
-                                    <button class="btn btn-primary mt-3 learn-more-btn" data-target="blog" aria-label="Learn more about the book">
-                                        <i class="fas fa-book" aria-hidden="true"></i> Learn More About Book
-                                    </button>
-                                </div>
-                            </div>
+                            <div class="clearfix"></div>
                         </div>
                     </div>
                 </section>
@@ -246,7 +253,6 @@
                     <h3 class="section-heading" id="contact-heading">Contact Information</h3>
                     <address>
                         <p>Email: <a href="mailto:bpdbhatia@hotmail.com">bpdbhatia@hotmail.com</a></p>
-                        <p>Phone: +91 797218XXXX</p>
                         <p>
                             <a href="https://www.facebook.com/Arun2014" target="_blank" rel="noopener" class="btn btn-outline-primary" aria-label="Visit Arun Bhatia's Facebook page">
                                 <i class="fab fa-facebook-f" aria-hidden="true"></i> Facebook
@@ -264,34 +270,27 @@
                     <h1 id="about-heading">Know Me - Arun Bhatia</h1>
                 </header>
                 
-                <div class="row mt-5">
-                    <div class="col-lg-4">
-                        <div class="profile-image-container">
-                            <img src="https://arunbhatiaias.com/wp-content/uploads/2024/08/1904247_574282569331531_400201853_n-1.jpg" 
-                                 alt="Arun Bhatia, former IAS officer" 
-                                 class="profile-image"
-                                 loading="lazy"
-                                 width="400"
-                                 height="600">
+                <div class="about-main-section mt-5">
+                    <h2 class="section-heading">About Arun Bhatia</h2>
+                    <div class="about-content-wrapper">
+                        <img src="i/arun.jpg" 
+                             alt="Arun Bhatia, former IAS officer" 
+                             class="profile-image-float"
+                             loading="lazy"
+                             width="400"
+                             height="600">
+                        <div class="text-content">
+                            <p>This bio-data is a three decade long story of attempting to enforce honesty in a corrupt third world bureaucracy. Almost from the moment of joining service (IAS) it became clear that the real enemy was the corrupt political establishment in India.</p>
+                            <p>I paid the price of denial of promotion, frequent transfers (26 transfers in as many years of service in India), numerous charges and enquiries, bad assessment reports, ridicule by peers, seniors and subordinates, lack of support when giant offenders like Glaxo or senior officers and politicians were prosecuted by me, ugly threats from the Bombay land mafia and so on.</p>
+                            <p>But there was another side also. I made friends with good people outside the system who stood by me and was able to help those being oppressed by corrupt officials. Awareness about corruption was enhanced, many were punished. Unfortunately, many were protected. When things became too hot with Chief Ministers gunning for me I managed to get a break by being selected by the United Nations for assignments.</p>
+                            <p>Some might say that this picture is too black. But if we agree that generally the country is corrupt and mismanaged then it won't do to say that only the IAS is honest. More accurate it is to say that the top echelons lead and facilitate the corruption.</p>
+                            <p>In 2004 I contested the parliamentary election as an independent candidate from Pune and received over 60,000 votes without any infrastructure or organisational support and without adequate time. This time things will be different.</p>
+                            <p><strong>Honest Indians will win this country back.</strong></p>
                         </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <article>
-                            <h2 class="section-heading">About Arun Bhatia</h2>
-                            <p class="text-content">This bio-data is a three decade long story of attempting to enforce honesty in a corrupt third world bureaucracy. Almost from the moment of joining service (IAS) it became clear that the real enemy was the corrupt political establishment in India.</p>
-                            
-                            <p class="text-content">I paid the price of denial of promotion, frequent transfers (26 transfers in as many years of service in India), numerous charges and enquiries, bad assessment reports, ridicule by peers, seniors and subordinates, lack of support when giant offenders like Glaxo or senior officers and politicians were prosecuted by me, ugly threats from the Bombay land mafia and so on.</p>
-                            
-                            <p class="text-content">But there was another side also. I made friends with good people outside the system who stood by me and was able to help those being oppressed by corrupt officials. Awareness about corruption was enhanced, many were punished. Unfortunately, many were protected. When things became too hot with Chief Ministers gunning for me I managed to get a break by being selected by the United Nations for assignments.</p>
-                            
-                            <p class="text-content">Some might say that this picture is too black. But if we agree that generally the country is corrupt and mismanaged then it won't do to say that only the IAS is honest. More accurate it is to say that the top echelons lead and facilitate the corruption.</p>
-                            
-                            <p class="text-content">In 2004 I contested the parliamentary election as an independent candidate from Pune and received over 60,000 votes without any infrastructure or organisational support and without adequate time. This time things will be different.</p>
-                            
-                            <p class="text-content"><strong>Honest Indians will win this country back.</strong></p>
-                        </article>
+                        <div class="clearfix"></div>
                     </div>
                 </div>
+                
                 <hr>
 
                 <!-- Education Section -->
@@ -317,13 +316,11 @@
                     <div class="experience-item">
                         <h4 class="year">2002</h4>
                         <p class="text-content"><strong>Commissioner, Tribal Research and Training Institute, Pune, Maharashtra.</strong><br>
-                        Published reports on malnutrition related child deaths, and implementation of schemes pertaining to watershed development, small dam construction, financial assistance to tribal women, distribution of agricultural inputs, income generation, resettlement of project displaced persons etc. These were critical of government functioning and exposed a high level of corruption, wasteful deployment of resources and poor monitoring and evaluation.</p>
                     </div>
 
                     <div class="experience-item">
                         <h4 class="year">1997-99</h4>
                         <p class="text-content"><strong>Divisional Commissioner, Pune.</strong><br>
-                        Supervised and co-ordinated work in five districts. Focused on empowerment of women by entering their names in land ownership records, on providing women access to judicial remedies, on the re-settlement of households displaced by irrigation projects, on waging a losing battle against corruption etc. Conducted enquiries and lodged prosecutions regarding corruption in urban bodies, government departments and the system of rural land management. 102 talathis and circle officers were trapped in cheating cases but I was transferred.</p>
                     </div>
 
                     <div class="experience-item">
@@ -334,7 +331,6 @@
                     <div class="experience-item">
                         <h4 class="year">1993</h4>
                         <p class="text-content"><strong>Commissioner, Food and Drug Administration (FDA), Maharashtra State.</strong><br>
-                        Most of the country's pharmaceutical industry is located in Maharashtra State. Drug quality in the market was monitored and action taken against the spurious drug business in numerous cases. Took action against drug companies for manufacture of or involvement in the trade of spurious drugs. Glaxo was defeated in the High Court.</p>
                     </div>
 
                     <div class="experience-item">
@@ -372,19 +368,16 @@
                     <div class="experience-item">
                         <h4 class="year">1999-2001</h4>
                         <p class="text-content"><strong>CONSULTANT, UNOPS, (United Nations Office for Project Services), Asia Office, KUALA LUMPUR, Malaysia.</strong><br>
-                        Supervision and evaluation of multi-disciplinary rural development projects in India, Nepal, Sri Lanka, Bangladesh, Laos and Vietnam financed by IFAD (International Fund for Agricultural Development of the United Nations). As Team Leader, prepared monitoring and supervision reports, recommendations etc. for the UN and the national Governments.</p>
                     </div>
 
                     <div class="experience-item">
                         <h4 class="year">1994-1996</h4>
                         <p class="text-content"><strong>CTA (CHIEF TECHNICAL ADVISER) (LAOS)</strong><br>
-                        Worked as the CTA in the Xiengkhouang Highland Development Programme. This programme comprised of three projects which were supervised/managed by me. The main project, funded by IFAD, covered crop, irrigation, livestock and credit sectors.</p>
                     </div>
 
                     <div class="experience-item">
                         <h4 class="year">1985-1988</h4>
                         <p class="text-content"><strong>PROJECT ADVISER (BOTSWANA)</strong><br>
-                        Worked for three years as the Project Adviser in an IFAD funded project for small farmers in Botswana (Arable Lands Development Programme). Provided management support to the National Project Co-ordinator.</p>
                     </div>
 
                     <h3 class="subsection-heading">Short Term United Nations Assignments as a Consultant</h3>
@@ -442,16 +435,6 @@
                     </div>
                 </div>
                 <hr>
-
-                <!-- Assets Section -->
-                <div class="mt-5">
-                    <h2 class="section-heading">My Assets</h2>
-                    <div class="text-content">
-                        <p>a) Property of 82 crores (now redeveloped to provide income of 125 lac per year)</p>
-                        <p>b) Two luxury cars (BMW and Porsche – Cayenne)</p>
-                        <p><em>(Property was inherited from my mother which she acquired before I entered govt. service. All white transactions. Papers can be shown.)</em></p>
-                    </div>
-                </div>
             </div>
         </section>
         <hr>
@@ -461,6 +444,14 @@
             <div class="container-fluid">
                 <header>
                     <h1 id="book-heading">Book - Fight Against Corruption</h1>
+                    <div class="text-center mb-4">
+                        <img src="i/book.jpg" 
+                             alt="Book cover: Fight Against Corruption - An IAS Officer's Journey by Arun Bhatia" 
+                             class="book-cover-image"
+                             loading="lazy"
+                             width="300"
+                             height="400">
+                    </div>
                 </header>
                 <article>
                     <h2>About the Book</h2>
@@ -566,82 +557,65 @@
         </section>
 
         <!-- Media Section -->
-        <section id="media" class="content-section" aria-labelledby="media-heading">
+        <section id="media1" class="content-section" aria-labelledby="media-heading">
             <div class="container-fluid">
                 <header>
                     <h1 id="media-heading">Media Coverage and Interviews</h1>
+                    <p class="text-muted">Filter videos by language and content type</p>
                 </header>
                 
-                <!-- Language Navigation Buttons -->
-                <nav class="language-nav mt-4" aria-label="Language selection">
-                    <div class="d-flex justify-content-center flex-wrap gap-3">
-                        <button class="btn btn-outline-primary language-scroll-btn" data-target="english-section">
-                            <i class="fas fa-globe" aria-hidden="true"></i> English
-                        </button>
-                        <button class="btn btn-outline-primary language-scroll-btn" data-target="hindi-section">
-                            <i class="fas fa-language" aria-hidden="true"></i> हिंदी
-                        </button>
-                        <button class="btn btn-outline-primary language-scroll-btn" data-target="marathi-section">
-                            <i class="fas fa-comments" aria-hidden="true"></i> मराठी
-                        </button>
-                        <button class="btn btn-outline-primary language-scroll-btn" data-target="interviews-section">
-                            <i class="fas fa-microphone" aria-hidden="true"></i> Interviews
-                        </button>
-                        <button class="btn btn-outline-primary language-scroll-btn" data-target="debates-section">
-                            <i class="fas fa-users" aria-hidden="true"></i> Debates
-                        </button>
-                        <button class="btn btn-outline-primary language-scroll-btn" data-target="speeches-section">
-                            <i class="fas fa-bullhorn" aria-hidden="true"></i> Speeches
-                        </button>
+                <!-- Filter Controls -->
+                <div class="filter-controls mt-4">
+                    <!-- Language Filter -->
+                    <div class="filter-group mb-4">
+                        <h4 class="filter-label">Language</h4>
+                        <div class="d-flex justify-content-center flex-wrap gap-3">
+                            <button class="btn btn-outline-primary language-filter-btn active" data-language="all">
+                                <i class="fas fa-globe" aria-hidden="true"></i> All Languages
+                            </button>
+                            <button class="btn btn-outline-primary language-filter-btn" data-language="english">
+                                <i class="fas fa-language" aria-hidden="true"></i> English
+                            </button>
+                            <button class="btn btn-outline-primary language-filter-btn" data-language="hindi">
+                                <i class="fas fa-comments" aria-hidden="true"></i> हिंदी
+                            </button>
+                            <button class="btn btn-outline-primary language-filter-btn" data-language="marathi">
+                                <i class="fas fa-comments" aria-hidden="true"></i> मराठी
+                            </button>
+                        </div>
                     </div>
-                </nav>
+                    
+                    <!-- Content Type Filter -->
+                    <div class="filter-group mb-4">
+                        <h4 class="filter-label">Content Type</h4>
+                        <div class="d-flex justify-content-center flex-wrap gap-3">
+                            <button class="btn btn-outline-primary content-filter-btn active" data-content-type="all">
+                                <i class="fas fa-video" aria-hidden="true"></i> All Types
+                            </button>
+                            <button class="btn btn-outline-primary content-filter-btn" data-content-type="interview">
+                                <i class="fas fa-microphone" aria-hidden="true"></i> Interviews
+                            </button>
+                            <button class="btn btn-outline-primary content-filter-btn" data-content-type="debate">
+                                <i class="fas fa-users" aria-hidden="true"></i> Debates
+                            </button>
+                            <button class="btn btn-outline-primary content-filter-btn" data-content-type="speech">
+                                <i class="fas fa-bullhorn" aria-hidden="true"></i> Speeches
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video Count -->
+                <div class="text-center mb-4">
+                    <p id="video-count" class="text-muted">Loading videos...</p>
+                </div>
+                
                 <hr>
 
-                <!-- English Section -->
-                <section class="language-section mb-5 mt-5" id="english-section" aria-labelledby="english-media-heading">
-                    <h2 class="section-heading" id="english-media-heading">English Media Coverage</h2>
+                <!-- Unified Media Section -->
+                <section class="unified-media-section" id="unified-media-section">
                     <div class="row mt-4">
-                        <!-- English media cards will be dynamically generated here -->
-                    </div>
-                </section>
-
-                <!-- Hindi Section -->
-                <section class="language-section mb-5" id="hindi-section" aria-labelledby="hindi-media-heading">
-                    <h2 class="section-heading" id="hindi-media-heading">हिंदी मीडिया कवरेज</h2>
-                    <div class="row mt-4">
-                        <!-- Hindi media cards will be dynamically generated here -->
-                    </div>
-                </section>
-
-                <!-- Marathi Section -->
-                <section class="language-section mb-5" id="marathi-section" aria-labelledby="marathi-media-heading">
-                    <h2 class="section-heading" id="marathi-media-heading">मराठी मीडिया कव्हरेज</h2>
-                    <div class="row mt-4">
-                        <!-- Marathi media cards will be dynamically generated here -->
-                    </div>
-                </section>
-
-                <!-- Interviews Section -->
-                <section class="language-section mb-5" id="interviews-section" aria-labelledby="interviews-media-heading">
-                    <h2 class="section-heading" id="interviews-media-heading">Interviews</h2>
-                    <div class="row mt-4">
-                        <!-- Interview media cards will be dynamically generated here -->
-                    </div>
-                </section>
-
-                <!-- Debates Section -->
-                <section class="language-section mb-5" id="debates-section" aria-labelledby="debates-media-heading">
-                    <h2 class="section-heading" id="debates-media-heading">Debates</h2>
-                    <div class="row mt-4">
-                        <!-- Debate media cards will be dynamically generated here -->
-                    </div>
-                </section>
-
-                <!-- Speeches Section -->
-                <section class="language-section mb-5" id="speeches-section" aria-labelledby="speeches-media-heading">
-                    <h2 class="section-heading" id="speeches-media-heading">Speeches</h2>
-                    <div class="row mt-4">
-                        <!-- Speech media cards will be dynamically generated here -->
+                        <!-- All media cards will be dynamically generated here -->
                     </div>
                 </section>
             </div>
@@ -662,7 +636,7 @@
         </div>
     </footer>
 
-    <button id="backToTop" title="Back to top" aria-label="Back to top" style="display:none;position:fixed;bottom:40px;right:40px;z-index:9999;padding:12px 18px;font-size:1.5rem;border-radius:50%;background:#e74c3c;color:#fff;border:none;box-shadow:0 2px 8px rgba(0,0,0,0.2);cursor:pointer;transition:background 0.2s;">
+    <button id="backToTop" title="Back to top" aria-label="Back to top" style="display:none;position:fixed;top:40px;left:50%;transform:translateX(-50%);z-index:9999;padding:10px 15px;font-size:1.2rem;border-radius:50%;background:#e74c3c;color:#fff;border:none;box-shadow:0 2px 8px rgba(0,0,0,0.2);cursor:pointer;transition:background 0.2s;">
         <i class="fas fa-arrow-up" aria-hidden="true"></i>
     </button>
 
