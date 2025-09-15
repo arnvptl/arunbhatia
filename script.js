@@ -4,57 +4,57 @@ document.addEventListener('DOMContentLoaded', function() {
         featured: [
             {
                 id: 1,
-                title: "Arun Bhatia speaks on Democracy",
+                title: "The Journey of Life",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/mQvG-4b2nhk",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/hNo1C9Zgx9k",
                 alt: "Arun Bhatia featured video 1",
                 language: "english",
                 contentType: "speech"
             },
             {
                 id: 2,
-                title: "Arun Bhatia's achievements for pune during his stint in various positions in Pune.",
-                thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/p_iv5q-vzJs ",
-                alt: "Arun Bhatia featured video 2",
-                language: "english",
-                contentType: "interview"
-            },
-            {
-                id: 3,
-                title: "Arun Bhatia promises to eradicate corruption from Pune city in 60 days!",
-                thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/OMMZX91dqEA",
-                alt: "Arun Bhatia featured video 3",
-                language: "english",
-                contentType: "speech"
-            },
-            {
-                id: 4,
                 title: "Aurangzeb Anger Ignites Nagpur Nightmare; CM Devendra Fadnavis Blames Film 'Chhaava' For Conflict?",
                 thumbnail: "i/arun3.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/gM6NK_qOFFs?start=1778",
-                alt: "Arun Bhatia featured video 4",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/gM6NK_qOFFs?start=1778",
+                alt: "Arun Bhatia featured video 2",
                 language: "english",
                 contentType: "debate"
             },
             {
-                id: 5,
-                title: "Arun Bhatia Final",
-                thumbnail: "i/arun-dreams.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/tdISQDd3fCg",
-                alt: "Arun Bhatia featured video 5",
+                id: 3,
+                title: "Arun Bhatia Exclusive",
+                thumbnail: "i/arunclose-up.jpeg",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/sX__lVQbQGY",
+                alt: "Arun Bhatia featured video 3",
                 language: "english",
                 contentType: "interview"
             },
             {
-                id: 6,
-                title: "Arun Bhatia Exclusive",
-                thumbnail: "i/arunclose-up.jpeg",
-                youtubeUrl: "https://www.youtube.com/embed/sX__lVQbQGY",
-                alt: "Arun Bhatia featured video 6",
+                id: 4,
+                title: "Arun Bhatia's achievements for pune during his stint in various positions in Pune.",
+                thumbnail: "i/arun-angry.webp",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/p_iv5q-vzJs",
+                alt: "Arun Bhatia featured video 4",
                 language: "english",
                 contentType: "interview"
+            },
+            {
+                id: 5,
+                title: "Arun Bhatia promises to eradicate corruption from Pune city in 60 days!",
+                thumbnail: "i/arun2.jpg",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/OMMZX91dqEA",
+                alt: "Arun Bhatia featured video 5",
+                language: "english",
+                contentType: "speech"
+            },
+            {
+                id: 6,
+                title: "Arun Bhatia speaks on Democracy",
+                thumbnail: "i/arun-detective.jpg",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/mQvG-4b2nhk",
+                alt: "Arun Bhatia featured video 6",
+                language: "english",
+                contentType: "speech"
             },
             {
                 id: 7,
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 10,
                 title: "English Media Coverage 1",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/hNo1C9Zgx9k",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/hNo1C9Zgx9k",
                 alt: "English media coverage 1",
                 language: "english",
                 contentType: "interview"
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 11,
                 title: "English Media Coverage 2",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/sX__lVQbQGY",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/sX__lVQbQGY",
                 alt: "English media coverage 2",
                 language: "english",
                 contentType: "debate"
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 12,
                 title: "English Media Coverage 3",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/NAyLIsqC7cc",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/NAyLIsqC7cc",
                 alt: "English media coverage 3",
                 language: "english",
                 contentType: "speech"
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 13,
                 title: "English Media Coverage 4",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/N2yBjcrcO70",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/N2yBjcrcO70",
                 alt: "English media coverage 4",
                 language: "english",
                 contentType: "interview"
@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 14,
                 title: "English Media Coverage 5",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/mmh__OwDEDg",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/mmh__OwDEDg",
                 alt: "English media coverage 5",
                 language: "english",
                 contentType: "debate"
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 15,
                 title: "English Media Coverage 6",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/bCG-ehU6jt4",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/bCG-ehU6jt4",
                 alt: "English media coverage 6",
                 language: "english",
                 contentType: "speech"
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 16,
                 title: "English Media Coverage 7",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/3Mdvp88hzp8",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/3Mdvp88hzp8",
                 alt: "English media coverage 7",
                 language: "english",
                 contentType: "interview"
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 17,
                 title: "English Media Coverage 8",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/7ppGjJnwQgU",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/7ppGjJnwQgU",
                 alt: "English media coverage 8",
                 language: "english",
                 contentType: "debate"
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 18,
                 title: "English Media Coverage 9",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/O2y_r8Cs6u4",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/O2y_r8Cs6u4",
                 alt: "English media coverage 9",
                 language: "english",
                 contentType: "debate"
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 19,
                 title: "हिंदी मीडिया कवरेज 1",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/BnYbx2YkTrM",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/BnYbx2YkTrM",
                 alt: "Hindi media coverage 1",
                 language: "hindi",
                 contentType: "interview"
@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 20,
                 title: "हिंदी मीडिया कवरेज 2",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/hUsAk6swjUc",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/hUsAk6swjUc",
                 alt: "Hindi media coverage 2",
                 language: "hindi",
                 contentType: "debate"
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 21,
                 title: "हिंदी मीडिया कवरेज 3",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/tSDJFI8kbtU",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/tSDJFI8kbtU",
                 alt: "Hindi media coverage 3",
                 language: "hindi",
                 contentType: "speech"
@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 22,
                 title: "हिंदी मीडिया कवरेज 4",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/YGYJVaFbKO4",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/YGYJVaFbKO4",
                 alt: "Hindi media coverage 4",
                 language: "hindi",
                 contentType: "interview"
@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 23,
                 title: "हिंदी मीडिया कवरेज 5",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/bhhYCk-5YLw",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/bhhYCk-5YLw",
                 alt: "Hindi media coverage 5",
                 language: "hindi",
                 contentType: "debate"
@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 24,
                 title: "हिंदी मीडिया कवरेज 6",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/jzvE-f8p4Uc",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/jzvE-f8p4Uc",
                 alt: "Hindi media coverage 6",
                 language: "hindi",
                 contentType: "speech"
@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 25,
                 title: "मराठी मीडिया कव्हरेज 1",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/_fDm0ETkbNU",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/_fDm0ETkbNU",
                 alt: "Marathi media coverage 1",
                 language: "marathi",
                 contentType: "interview"
@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 26,
                 title: "मराठी मीडिया कव्हरेज 2",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/mmL25rFmzc0",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/mmL25rFmzc0",
                 alt: "Marathi media coverage 2",
                 language: "marathi",
                 contentType: "debate"
@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 27,
                 title: "मराठी मीडिया कव्हरेज 3",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/HseKCWGvrVI",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/HseKCWGvrVI",
                 alt: "Marathi media coverage 3",
                 language: "marathi",
                 contentType: "speech"
@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 28,
                 title: "मराठी मीडिया कव्हरेज 4",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/sh8OJo_OmFQ",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/sh8OJo_OmFQ",
                 alt: "Marathi media coverage 4",
                 language: "marathi",
                 contentType: "interview"
@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 29,
                 title: "मराठी मीडिया कव्हरेज 5",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/tdISQDd3fCg",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/tdISQDd3fCg",
                 alt: "Marathi media coverage 5",
                 language: "marathi",
                 contentType: "debate"
@@ -272,7 +272,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 30,
                 title: "मराठी मीडिया कव्हरेज 6",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/uPH7PDvczQc",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/uPH7PDvczQc",
                 alt: "Marathi media coverage 6",
                 language: "marathi",
                 contentType: "speech"
@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 31,
                 title: "Interview 1",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/RSAat1SjRg4",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/RSAat1SjRg4",
                 alt: "Interview 1",
                 language: "english",
                 contentType: "interview"
@@ -291,7 +291,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 32,
                 title: "Interview 2",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/gMEJscBWm0Y",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/gMEJscBWm0Y",
                 alt: "Interview 2",
                 language: "english",
                 contentType: "interview"
@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 33,
                 title: "Interview 3",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/O6IopL2sv9U",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/O6IopL2sv9U",
                 alt: "Interview 3",
                 language: "english",
                 contentType: "interview"
@@ -309,7 +309,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 34,
                 title: "Interview 4",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/bSr58uGqP04",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/bSr58uGqP04",
                 alt: "Interview 4",
                 language: "english",
                 contentType: "interview"
@@ -318,7 +318,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 35,
                 title: "Interview 5",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/OMMZX91dqEA",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/OMMZX91dqEA",
                 alt: "Interview 5",
                 language: "english",
                 contentType: "interview"
@@ -327,7 +327,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 36,
                 title: "Interview 6",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/p_iv5q-vzJs",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/p_iv5q-vzJs",
                 alt: "Interview 6",
                 language: "english",
                 contentType: "interview"
@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 37,
                 title: "Debate 1",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/2kRmkBz5GlA",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/2kRmkBz5GlA",
                 alt: "Debate 1",
                 language: "english",
                 contentType: "debate"
@@ -346,7 +346,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 38,
                 title: "Debate 2",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/IQJIoeRevAU",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/IQJIoeRevAU",
                 alt: "Debate 2",
                 language: "english",
                 contentType: "debate"
@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 39,
                 title: "Debate 3",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/xKanXqRbKNw",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/xKanXqRbKNw",
                 alt: "Debate 3",
                 language: "english",
                 contentType: "debate"
@@ -364,7 +364,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 40,
                 title: "Debate 4",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/xPJDO55hcKY",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/xPJDO55hcKY",
                 alt: "Debate 4",
                 language: "english",
                 contentType: "debate"
@@ -373,7 +373,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 41,
                 title: "Debate 5",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/28YiMCsfeMo",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/28YiMCsfeMo",
                 alt: "Debate 5",
                 language: "english",
                 contentType: "debate"
@@ -383,7 +383,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 42,
                 title: "Speech 1",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/PsS1RZAoQ7Y",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/PsS1RZAoQ7Y",
                 alt: "Speech 1",
                 language: "english",
                 contentType: "speech"
@@ -392,7 +392,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 43,
                 title: "Speech 2",
                 thumbnail: "i/arun2.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/9fvRZZN8vGo",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/9fvRZZN8vGo",
                 alt: "Speech 2",
                 language: "english",
                 contentType: "speech"
@@ -401,7 +401,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 44,
                 title: "Speech 3",
                 thumbnail: "i/arun-angry.webp",
-                youtubeUrl: "https://www.youtube.com/embed/mQvG-4b2nhk",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/mQvG-4b2nhk",
                 alt: "Speech 3",
                 language: "english",
                 contentType: "speech"
@@ -410,7 +410,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 id: 45,
                 title: "Speech 4",
                 thumbnail: "i/arun-detective.jpg",
-                youtubeUrl: "https://www.youtube.com/embed/EhHVN8Z1hv8",
+                youtubeUrl: "https://www.youtube-nocookie.com/embed/EhHVN8Z1hv8",
                 alt: "Speech 4",
                 language: "english",
                 contentType: "speech"
