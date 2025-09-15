@@ -1120,6 +1120,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initializePage();
 
 console.log("%cArnav","color: #FF6B6B; font-size: 70px; font-weight: bold;");
+console.log("%chttps://rnv.is-a.dev", "font-size: 20px;")
     
     // Track page performance
     if ('performance' in window) {
